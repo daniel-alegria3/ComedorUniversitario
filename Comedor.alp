@@ -1571,7 +1571,7 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[500]]></Code>
+								<Code><![CDATA[870]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
 							</Value>
 						</Parameter>
@@ -2163,6 +2163,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[gamma(3.324, 0.567)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -2254,6 +2258,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[normal(0.97, 2.59)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -2345,6 +2353,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[gamma(9.987, 0.257)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -2436,6 +2448,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[gamma(9.736, 0.140)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -2527,6 +2543,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[gamma(9.001, 0.194)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -2898,6 +2918,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[lognormal(0.475, 1.173, 0.0)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -2989,6 +3013,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[gamma(3.324, 0.567)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -3478,13 +3506,13 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0.5]]></Code>
+								<Code><![CDATA[0.432]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0.5]]></Code>
+								<Code><![CDATA[0.568]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3589,6 +3617,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[gamma(3.324, 0.567)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -3680,6 +3712,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[normal(0.97, 2.59)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -3771,6 +3807,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[gamma(9.987, 0.257)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -3862,6 +3902,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[gamma(9.736, 0.140)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -3953,6 +3997,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[gamma(9.001, 0.194)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -4138,6 +4186,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[lognormal(1.519, 1.647, 0.0)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -4229,6 +4281,10 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[gamma(3.324, 0.567)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -5071,7 +5127,7 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(2, 3)]]></Code>
+								<Code><![CDATA[triangular(900.0, 1200.0, 2700.0)]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -5169,13 +5225,13 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0.5]]></Code>
+								<Code><![CDATA[0.185]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0.5]]></Code>
+								<Code><![CDATA[0.815]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5281,7 +5337,7 @@ panelGroup.setPos( viewArea.getX(), viewArea.getY() );]]></Body>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(2,3)]]></Code>
+								<Code><![CDATA[triangular(900.0, 1200.0, 2700.0)]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -27565,10 +27621,77 @@ Segundo piso:
 
 					<Z>0</Z>
 				</Network>
-    			<PieChart>
+    			<Plot>
+					<Id>1785609446090</Id>
+					<Name><![CDATA[plot_fila_exterior]]></Name>
+					<X>1100</X><Y>1030</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>1785609446089</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1785657600000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>200</Width>
+					<Height>170</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>35</XOffset>
+						<YOffset>15</YOffset>
+						<Width>145</Width>
+						<Height>95</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>25</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<VerScaleType>AUTO</VerScaleType>
+					<DrawLine>true</DrawLine>
+					<Interpolation>LINEAR</Interpolation>
+					<DatasetExpression>  
+						<Title><![CDATA[Cola Exterior (Esperando Afuera)]]></Title>
+						<Id>1785609446924</Id>
+						<Expression><![CDATA[time()]]></Expression>
+						<Color>-65536</Color>
+						<Expression2><![CDATA[fila.size() + fila2.size()]]></Expression2>
+						<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>2.0</LineWidth>
+						<HorizontalAxisExpression><![CDATA[time()]]></HorizontalAxisExpression>
+					</DatasetExpression>
+					<SamplesToKeep>1000</SamplesToKeep>
+					<HorScaleFromExpression><![CDATA[0]]></HorScaleFromExpression>
+					<HorScaleToExpression><![CDATA[100]]></HorScaleToExpression>
+					<HorScaleType>AUTO</HorScaleType>
+    			</Plot>
+    			<Plot>
 					<Id>1785609446093</Id>
-					<Name><![CDATA[chart]]></Name>
-					<X>1140</X><Y>1040</Y>
+					<Name><![CDATA[plot_huella1]]></Name>
+					<X>1310</X><Y>1030</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27589,22 +27712,23 @@ Segundo piso:
 						</RecurrenceCode>
 					</RecurrenceProperties>
 					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>260</Width>
-					<Height>210</Height>
+					<Width>200</Width>
+					<Height>170</Height>
 					<BackgroundColor/>
 					<BorderColor/>
 					<ChartArea>
-						<XOffset>50</XOffset>
-						<YOffset>10</YOffset>
-						<Width>140</Width>
-						<Height>140</Height>
-						<BorderColor/>
+						<XOffset>35</XOffset>
+						<YOffset>15</YOffset>
+						<Width>145</Width>
+						<Height>95</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
 						<GridColor>-12566464</GridColor>
 					</ChartArea>
 					<Legend>
 						<Place>SOUTH</Place>
 						<TextColor>-16777216</TextColor>
-						<Size>40</Size>
+						<Size>25</Size>
 					</Legend>
 					<Labels>
 						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
@@ -27612,23 +27736,230 @@ Segundo piso:
 						<TextColor>-12566464</TextColor>
 					</Labels>
 					<ShowLegend>true</ShowLegend>
-					<DataItem>
-					<Id>1785609446925</Id>
-					<Expression><![CDATA[0]]></Expression>
-					<Color>-32944</Color>
-						<Title><![CDATA[Title]]></Title>
-					</DataItem>
-					<DataItem>
-					<Id>1785609446928</Id>
-					<Expression><![CDATA[0]]></Expression>
-					<Color>-13447886</Color>
-						<Title><![CDATA[Title 1]]></Title>
-					</DataItem>
-    			</PieChart>
+					<VerScaleType>AUTO</VerScaleType>
+					<DrawLine>true</DrawLine>
+					<Interpolation>LINEAR</Interpolation>
+					<DatasetExpression>  
+						<Title><![CDATA[Cola Huellero 1]]></Title>
+						<Id>1785609446925</Id>
+						<Expression><![CDATA[time()]]></Expression>
+						<Color>-65536</Color>
+						<Expression2><![CDATA[huella.size()]]></Expression2>
+						<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>2.0</LineWidth>
+						<HorizontalAxisExpression><![CDATA[time()]]></HorizontalAxisExpression>
+					</DatasetExpression>
+					<SamplesToKeep>1000</SamplesToKeep>
+					<HorScaleFromExpression><![CDATA[0]]></HorScaleFromExpression>
+					<HorScaleToExpression><![CDATA[100]]></HorScaleToExpression>
+					<HorScaleType>AUTO</HorScaleType>
+    			</Plot>
+    			<Plot>
+					<Id>1785609446094</Id>
+					<Name><![CDATA[plot_huella2]]></Name>
+					<X>1520</X><Y>1030</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>1785609446092</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1785657600000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>200</Width>
+					<Height>170</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>35</XOffset>
+						<YOffset>15</YOffset>
+						<Width>145</Width>
+						<Height>95</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>25</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<VerScaleType>AUTO</VerScaleType>
+					<DrawLine>true</DrawLine>
+					<Interpolation>LINEAR</Interpolation>
+					<DatasetExpression>  
+						<Title><![CDATA[Cola Huellero 2]]></Title>
+						<Id>1785609446926</Id>
+						<Expression><![CDATA[time()]]></Expression>
+						<Color>-16776961</Color>
+						<Expression2><![CDATA[huella2.size()]]></Expression2>
+						<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>2.0</LineWidth>
+						<HorizontalAxisExpression><![CDATA[time()]]></HorizontalAxisExpression>
+					</DatasetExpression>
+					<SamplesToKeep>1000</SamplesToKeep>
+					<HorScaleFromExpression><![CDATA[0]]></HorScaleFromExpression>
+					<HorScaleToExpression><![CDATA[100]]></HorScaleToExpression>
+					<HorScaleType>AUTO</HorScaleType>
+    			</Plot>
+    			<Plot>
+					<Id>1785609446095</Id>
+					<Name><![CDATA[plot_v1]]></Name>
+					<X>1730</X><Y>1030</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>1785609446097</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1785657600000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>200</Width>
+					<Height>170</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>35</XOffset>
+						<YOffset>15</YOffset>
+						<Width>145</Width>
+						<Height>95</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>25</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<VerScaleType>AUTO</VerScaleType>
+					<DrawLine>true</DrawLine>
+					<Interpolation>LINEAR</Interpolation>
+					<DatasetExpression>  
+						<Title><![CDATA[V1 Pan/Fruta]]></Title>
+						<Id>1785609446927</Id>
+						<Expression><![CDATA[time()]]></Expression>
+						<Color>-16711936</Color>
+						<Expression2><![CDATA[pan_fruta.size()]]></Expression2>
+						<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>2.0</LineWidth>
+						<HorizontalAxisExpression><![CDATA[time()]]></HorizontalAxisExpression>
+					</DatasetExpression>
+					<SamplesToKeep>1000</SamplesToKeep>
+					<HorScaleFromExpression><![CDATA[0]]></HorScaleFromExpression>
+					<HorScaleToExpression><![CDATA[100]]></HorScaleToExpression>
+					<HorScaleType>AUTO</HorScaleType>
+    			</Plot>
+    			<Plot>
+					<Id>1785609446098</Id>
+					<Name><![CDATA[plot_v2]]></Name>
+					<X>1100</X><Y>1210</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>1785609446099</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1785657600000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>200</Width>
+					<Height>170</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>35</XOffset>
+						<YOffset>15</YOffset>
+						<Width>145</Width>
+						<Height>95</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>25</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<VerScaleType>AUTO</VerScaleType>
+					<DrawLine>true</DrawLine>
+					<Interpolation>LINEAR</Interpolation>
+					<DatasetExpression>  
+						<Title><![CDATA[V2 Postre]]></Title>
+						<Id>1785609446931</Id>
+						<Expression><![CDATA[time()]]></Expression>
+						<Color>-256</Color>
+						<Expression2><![CDATA[complemento.size()]]></Expression2>
+						<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>2.0</LineWidth>
+						<HorizontalAxisExpression><![CDATA[time()]]></HorizontalAxisExpression>
+					</DatasetExpression>
+					<SamplesToKeep>1000</SamplesToKeep>
+					<HorScaleFromExpression><![CDATA[0]]></HorScaleFromExpression>
+					<HorScaleToExpression><![CDATA[100]]></HorScaleToExpression>
+					<HorScaleType>AUTO</HorScaleType>
+    			</Plot>
     			<Plot>
 					<Id>1785609451559</Id>
-					<Name><![CDATA[plot]]></Name>
-					<X>1440</X><Y>1040</Y>
+					<Name><![CDATA[plot_v3]]></Name>
+					<X>1310</X><Y>1210</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27649,15 +27980,15 @@ Segundo piso:
 						</RecurrenceCode>
 					</RecurrenceProperties>
 					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>260</Width>
-					<Height>210</Height>
+					<Width>200</Width>
+					<Height>170</Height>
 					<BackgroundColor/>
 					<BorderColor/>
 					<ChartArea>
-						<XOffset>50</XOffset>
-						<YOffset>30</YOffset>
-						<Width>180</Width>
-						<Height>120</Height>
+						<XOffset>35</XOffset>
+						<YOffset>15</YOffset>
+						<Width>145</Width>
+						<Height>95</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
 						<GridColor>-12566464</GridColor>
@@ -27665,7 +27996,7 @@ Segundo piso:
 					<Legend>
 						<Place>SOUTH</Place>
 						<TextColor>-16777216</TextColor>
-						<Size>30</Size>
+						<Size>25</Size>
 					</Legend>
 					<Labels>
 						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
@@ -27673,25 +28004,291 @@ Segundo piso:
 						<TextColor>-12566464</TextColor>
 					</Labels>
 					<ShowLegend>true</ShowLegend>
-					<VerScaleFromExpression><![CDATA[0]]></VerScaleFromExpression>
-					<VerScaleToExpression><![CDATA[1]]></VerScaleToExpression>
 					<VerScaleType>AUTO</VerScaleType>
 					<DrawLine>true</DrawLine>
 					<Interpolation>LINEAR</Interpolation>
 					<DatasetExpression>  
-						<Title><![CDATA[Title]]></Title>
-					<Id>1785609453603</Id>
-					<Expression><![CDATA[dataset]]></Expression>
-					<Color>-2987746</Color>
-					<Expression2><![CDATA[0]]></Expression2>
-					<Expression2Flag>true</Expression2Flag>
-						<PointStyle>CIRCLE</PointStyle>
-						<LineWidth>1.0</LineWidth>
-						<HorizontalAxisExpression><![CDATA[0]]></HorizontalAxisExpression>
+						<Title><![CDATA[V3 Principal]]></Title>
+						<Id>1785609453605</Id>
+						<Expression><![CDATA[time()]]></Expression>
+						<Color>-65536</Color>
+						<Expression2><![CDATA[principal.size()]]></Expression2>
+						<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>2.0</LineWidth>
+						<HorizontalAxisExpression><![CDATA[time()]]></HorizontalAxisExpression>
 					</DatasetExpression>
-					<SamplesToKeep>100</SamplesToKeep>
+					<SamplesToKeep>1000</SamplesToKeep>
 					<HorScaleFromExpression><![CDATA[0]]></HorScaleFromExpression>
-					<HorScaleToExpression><![CDATA[1]]></HorScaleToExpression>
+					<HorScaleToExpression><![CDATA[100]]></HorScaleToExpression>
+					<HorScaleType>AUTO</HorScaleType>
+    			</Plot>
+    			<Plot>
+					<Id>1785609451560</Id>
+					<Name><![CDATA[plot_v4]]></Name>
+					<X>1520</X><Y>1210</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>1785609451561</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1785657600000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>200</Width>
+					<Height>170</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>35</XOffset>
+						<YOffset>15</YOffset>
+						<Width>145</Width>
+						<Height>95</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>25</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<VerScaleType>AUTO</VerScaleType>
+					<DrawLine>true</DrawLine>
+					<Interpolation>LINEAR</Interpolation>
+					<DatasetExpression>  
+						<Title><![CDATA[V4 Arroz]]></Title>
+						<Id>1785609453606</Id>
+						<Expression><![CDATA[time()]]></Expression>
+						<Color>-16711681</Color>
+						<Expression2><![CDATA[arroz.size()]]></Expression2>
+						<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>2.0</LineWidth>
+						<HorizontalAxisExpression><![CDATA[time()]]></HorizontalAxisExpression>
+					</DatasetExpression>
+					<SamplesToKeep>1000</SamplesToKeep>
+					<HorScaleFromExpression><![CDATA[0]]></HorScaleFromExpression>
+					<HorScaleToExpression><![CDATA[100]]></HorScaleToExpression>
+					<HorScaleType>AUTO</HorScaleType>
+    			</Plot>
+    			<Plot>
+					<Id>1785609451562</Id>
+					<Name><![CDATA[plot_v5]]></Name>
+					<X>1730</X><Y>1210</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>1785609451563</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1785657600000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>200</Width>
+					<Height>170</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>35</XOffset>
+						<YOffset>15</YOffset>
+						<Width>145</Width>
+						<Height>95</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>25</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<VerScaleType>AUTO</VerScaleType>
+					<DrawLine>true</DrawLine>
+					<Interpolation>LINEAR</Interpolation>
+					<DatasetExpression>  
+						<Title><![CDATA[V5 Mate]]></Title>
+						<Id>1785609453607</Id>
+						<Expression><![CDATA[time()]]></Expression>
+						<Color>-8388608</Color>
+						<Expression2><![CDATA[mate.size()]]></Expression2>
+						<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>2.0</LineWidth>
+						<HorizontalAxisExpression><![CDATA[time()]]></HorizontalAxisExpression>
+					</DatasetExpression>
+					<SamplesToKeep>1000</SamplesToKeep>
+					<HorScaleFromExpression><![CDATA[0]]></HorScaleFromExpression>
+					<HorScaleToExpression><![CDATA[100]]></HorScaleToExpression>
+					<HorScaleType>AUTO</HorScaleType>
+    			</Plot>
+    			<Plot>
+					<Id>1785609461001</Id>
+					<Name><![CDATA[plot_mesas]]></Name>
+					<X>1310</X><Y>1390</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>1785609461002</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1785657600000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>200</Width>
+					<Height>170</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>35</XOffset>
+						<YOffset>15</YOffset>
+						<Width>145</Width>
+						<Height>95</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>25</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<VerScaleType>AUTO</VerScaleType>
+					<DrawLine>true</DrawLine>
+					<Interpolation>LINEAR</Interpolation>
+					<DatasetExpression>  
+						<Title><![CDATA[Personas en Mesas]]></Title>
+						<Id>1785609461003</Id>
+						<Expression><![CDATA[time()]]></Expression>
+						<Color>-16744448</Color>
+						<Expression2><![CDATA[consumir.size() + consumir2.size()]]></Expression2>
+						<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>2.0</LineWidth>
+						<HorizontalAxisExpression><![CDATA[time()]]></HorizontalAxisExpression>
+					</DatasetExpression>
+					<SamplesToKeep>1000</SamplesToKeep>
+					<HorScaleFromExpression><![CDATA[0]]></HorScaleFromExpression>
+					<HorScaleToExpression><![CDATA[100]]></HorScaleToExpression>
+					<HorScaleType>AUTO</HorScaleType>
+    			</Plot>
+    			<Plot>
+					<Id>1785609471001</Id>
+					<Name><![CDATA[plot_salida]]></Name>
+					<X>1520</X><Y>1390</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>1785609471002</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1785657600000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>200</Width>
+					<Height>170</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>35</XOffset>
+						<YOffset>15</YOffset>
+						<Width>145</Width>
+						<Height>95</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>25</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<VerScaleType>AUTO</VerScaleType>
+					<DrawLine>true</DrawLine>
+					<Interpolation>LINEAR</Interpolation>
+					<DatasetExpression>  
+						<Title><![CDATA[Comensales Atendidos]]></Title>
+						<Id>1785609471003</Id>
+						<Expression><![CDATA[time()]]></Expression>
+						<Color>-16777216</Color>
+						<Expression2><![CDATA[salida.in.count()]]></Expression2>
+						<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>2.0</LineWidth>
+						<HorizontalAxisExpression><![CDATA[time()]]></HorizontalAxisExpression>
+					</DatasetExpression>
+					<SamplesToKeep>1000</SamplesToKeep>
+					<HorScaleFromExpression><![CDATA[0]]></HorScaleFromExpression>
+					<HorScaleToExpression><![CDATA[100]]></HorScaleToExpression>
 					<HorScaleType>AUTO</HorScaleType>
     			</Plot>
 				<Figure3D>
